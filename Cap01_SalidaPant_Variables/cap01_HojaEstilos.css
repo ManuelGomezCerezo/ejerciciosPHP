@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26-sep-2015, 20:49:23
+    Author     : lolo
+*/
+
+body {
+    font-family: Tahoma, Geneva, sans-serif;
+}
+table {
+    border: 2px solid black;
+}
+td {    
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+}
+tr {    
+    border: 1px solid black;
+}
+#dibujos {
+    font-family: courier;
+}
+#titulos {
+    font-style: italic;
+}
+
