@@ -36,7 +36,7 @@ and open the template in the editor.
               <input type="number" autofocus name="num">
               <input type="hidden" name="numint" value="<?php echo $cocNum; ?>">
               <input type="hidden" name="cont" value="<?php echo $contador; ?>">
-          </form>
+        </form>
         
       <?php  
       }else{
