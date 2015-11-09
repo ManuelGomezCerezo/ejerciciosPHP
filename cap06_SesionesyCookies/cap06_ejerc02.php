@@ -21,7 +21,7 @@ and open the template in the editor.
         CALCULAR MEDIA DE NUMEROS<br>
         Introduzca todos los números enteros que quieras y pulsa intro<br>
         Para calcular su media introduzca un número negativo<br>
-        <input type="text" name="numInt" required autofocus>
+        <input type="number" name="numInt" required autofocus>
         <input type="submit" name="sumar">
       </form>   
       <?php
@@ -48,7 +48,7 @@ and open the template in the editor.
             }
           } else {
             $contadorImpares++;
-            $sumaImpares = $sumaImpares + $_REQUEST['numInt'];
+            $sumaImpares += $_REQUEST['numInt'];
           }
 
           echo 'CONTADOR números = '. $contadorNumeros;

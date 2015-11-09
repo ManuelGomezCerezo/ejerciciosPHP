@@ -31,7 +31,7 @@ and open the template in the editor.
         
         if ($_REQUEST['numInt'] > 0) {
         
-          $sumaNumeros = $sumaNumeros + $_REQUEST['numInt'];
+          $sumaNumeros += $_REQUEST['numInt'];
           $contadorNumeros++;
 
           echo 'CONTADOR NÚMERO = '. $contadorNumeros;

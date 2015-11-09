@@ -45,12 +45,8 @@ and open the template in the editor.
       
       } 
       
-      if ($_SESSION['acceso']) {
+      if ($_SESSION['acceso']) {  //INICIO  DEL ACCESO
         
-          if ($lolo) {
-            $_SESSION["acceso"] = FALSE;
-          } 
-          
           //INICIO PROGRAMA PRINCIPAL- se ejecuta si estamos logueados./////////////
           $sumaNumeros = $_SESSION['sumNumeros'];
           $contadorNumeros = $_SESSION['contNumeros'];

@@ -29,7 +29,7 @@ and open the template in the editor.
       </div>
       <div>
         5. Crea un carrito de la compra sencillo que permita añadir y quitar productos (tres o cuatro productos diferentes). De cada producto se debe conocer al menos la descripción, el precio y debe tener una imagen que lo identifique.<br>
-        <a href='cap06_ejerc05.php'>SOLUCION</a>
+        <a href='cap06_ejerc05.php'>-SOLUCION-</a><a href='cap06_ejerc05b.php'>-SOLUCION B-</a><a href='cap06_ejerc05c.php'>-SOLUCION C-</a>
       </div>
       <div>
         6. Amplía el programa anterior de tal forma que se pueda ver el detalle de un producto. Se podrán añadir productos al carrito tanto desde la vista de listado como desde la vista de detalle.<br>
